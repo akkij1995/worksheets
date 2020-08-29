@@ -1,0 +1,40 @@
+Q.1) B
+Q.2) D
+Q.3) A
+Q.4) A
+Q.5) B
+Q.6) C
+Q.7) D
+Q.8) C
+Q.9) D
+Q.10) A,B,C
+
+Q.11) Web scraper:  It is nothing but scraping data from any web page. The process is automated and it can extract data. It does not only copy paste but retrieve data in precise and accurate manner. It can be stored into databases of our choice. It does not need to be data from internet but it requires only data wherever it may be stored.
+Examples can be scraping images from amazon or prizes of vehicles.
+Web crawling: Web crawler is nothing but a web scraper with extra crawling functionality. It crawls web pages and give the indexes according to information.
+Example:  Google search engine extracts information which are nothing but web pages. When a keyword is entered then search engine search for each web pages and give index according to information and then displays the result.
+Q.12) robots.txt is basically a file which tells search engine which pages can be crawled and which cannot. Its main purpose is basically to avoid overloading our site by getting multiple results.
+It’s a way of communicating websites with web crawler. Website owner places this robots.txt file in a root folder and when crawling takes place it first read the instructions in that file and check whether owner wants to share information or not. If file is not present then crawler understand that there is no limitations on the website and can extract any information present.
+Q.13) Static as name suggest, the content present is static and does not change. It does not require content to be changed timely as they are meant for that only. Unlike dynamic, content changes every time. Exa. Amazon changes its products timely which is nothing but dynamic application or website. Also facebook, each time results will change. Static websites are easy to build.
+Static websites can be flickr and slideshare.
+Q.14) 
+from selenium import webdriver
+driver=webdriver.Chrome(executable_path='chromedriver.exe')
+url=input('Enter url:')
+driver.get(url)
+get_title = driver.title
+if get_title:
+    print('Title is present for the web page')
+    print('Title is:',get_title)
+else:
+    print('Title is not present for the url')
+ 
+Q.15)
+from selenium import webdriver
+driver=webdriver.Chrome(executable_path='chromedriver.exe')
+url='https://www.images.google.com'
+driver.get(url)
+search_bar=driver.find_elements_by_xpath('//input[@class="gLFyf gsfi"]')
+print(search_bar)
+search_button=driver.find_elements_by_xpath('//button[@class="Tg7LZd"]')
+print(search_button)

@@ -1,0 +1,50 @@
+Q.1 B
+Q.2 C
+Q.3 A
+Q.4 C
+Q.5 C
+Q.6 C
+Q.7 C
+Q.8 B
+Q.9 A,B,D
+Q.10 A,B,C
+Q.11) list : List is a datatype which can store any value and the values are mutable.It means one can change value.It is denoted by [].
+            list1=[10,20,'hello','name']
+      tuple: Tuple is a datatype which also stores homogeneous or heterogeneous values but tuples are immutable. One cannot change value once assigned.
+             They are denoted by ().
+             tup=(13,40,50,50)
+      set : Set is a datatype which is similar to tuple and shown as same but set contains unique values.Hence wherever one wants to avoid duplicate values 
+            set is used.
+            sets=(33,45,68,95)
+      dictionary: Dictionary is a data type in which values are stored as a key value pair. One can access the values using .values() and for keys using .keys()
+                 They are mutable. Denoted by {}.
+             dict={'name':['rohan','akash'],'id':[101,105]}
+
+Q.12) strings are immutable in python.Once written they cannot be changed unlike lists.It is advantage as knowning they are immutable makes it easy at construction 
+       time.Fixed and unchanging storage requirements.
+       string1='I+Love+Python'
+      To replace + with ' ' one can directly use replace function.
+      string1.replace('+',' ')
+      output: I Love Python
+ Q.13) To get unicode code of an single length string ord() function is used.It takes string of length 1 as an input and returns unicode code of that particular 
+        string.It is built-in function in python and converts character to integers. Ex. ord('B') is 66 i.e. the unicode code of B is 66.
+       To get data type of variable in python type() function is used which returns data type of that variable.
+       Ex. a=[10,20,30], b={'d':(10,20)}
+          type(a),type(b)
+           output: list,dict
+ 
+Q.14) 
+def quadratic(a,b,c):
+    if a==0:
+        print('Invalid input, enter value of A other than zero')
+    else:
+        print('Quadratic equation is: {}X^2+{}X+{}'.format(a,b,c))
+        from math import sqrt
+        x1=((-b)+sqrt(b**2-(4*a*c)))/(2*a)
+        x2=((-b)-sqrt(b**2-(4*a*c)))/(2*a)
+        print('Roots of quadratic equation are: X1={} and X2={}'.format(x1,x2))
+Q.15)
+def addition():
+    n=int(input('Enter value of "n":'))
+    add=n*(n+1)/2
+    print('Sum of "n" natural numbers is:',int(add))

@@ -1,0 +1,35 @@
+Q.1) A,D
+Q.2) A,B,C
+Q.3) B
+Q.4) B
+Q.5) A
+Q.6) C
+Q.7) B
+Q.8) B
+Q.9) B
+Q.10)C
+
+Q.11) Data warehouse is nothing but a database of information. It combines information from various sources and stores in one database.Like amazon has various
+warehouses of its products which collects from various sources. It is designed to enable and support business intelligence.It contains large historical data and 
+performs queries and analysis.For example, in the business world, a data warehouse might incorporate customer information from a company's point-of-sale systems 
+(the cash registers), its website, its mailing lists and its comment cards.
+
+Q.12) Online transaction processing (OLTP) captures, stores, and processes data from transactions in real time. It is used for maintaining the online transaction 
+and record integrity in multiple access environments. OLTP is a system that manages very large number of short online transactions for example, ATM.
+ Online analytical processing (OLAP) uses complex queries to analyze aggregated historical data from OLTP systems.Data Warehouse is the example of OLAP system.
+
+Q.13) The prominent data warehousing characteristics are:
+    i) Integrated: The way data extracted and transformed is uniform. The original source might not be uniform but the extracted one is uniform.
+   ii) Time-variant: Data is organized according to time i.e. weekly ,monthly or yearly. so it becomes easy to extract information.
+  iii) Non-volatile: Data is periodically upadated not not upadated in real-time. Periodical updation is done via uploading of data thus protecting
+it from the influence of momentary change.
+
+Q.14) Star schema is widely used approach for developing data warehouse and dimensional data marts.It is simplest style of data mart schema.The star schema 
+consists of one or more fact tables referencing any number of dimension.The star schema is an important special case of the snowflake schema, and is more 
+effective for handling simpler queries
+   
+Q.15)SETL: SETL (SET Language) is a very high-level programming language based on the mathematical theory of sets. It was originally developed by (Jack) Jacob T.
+in the late 1960s.SETL provides two basic aggregate data types: unordered sets, and sequences (the latter also called tuples). The elements of sets and 
+tuples can be of any arbitrary type, including sets and tuples themselves.Primitive operations in SETL include set membership, union, intersection, and 
+power set construction, among others.SETL provides quantified boolean expressions constructed using the universal and existential quantifiers of first-order predicate logic.
+SETL provides several iterators to produce a variety of loops over aggregate data structures.
