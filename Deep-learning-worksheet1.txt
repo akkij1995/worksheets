@@ -1,0 +1,49 @@
+Q.1) B
+Q.2) D
+Q.3) C
+Q.4) A
+Q.5) A
+Q.6) D
+Q.7) B
+Q.8) A
+Q.9) B,D
+Q.10) B,D
+
+Q.11)
+Deep learning is sub stream of Artificial Intelligence where it tries mimic human behavior. Like human tries to detect object and process data with the help of neurons
+same working principle is used in deep learning. It can be used to detect object,language translation, recognizing speech and making decisions. It is able to learn without
+human supervision.The data can be structured and unlabled.It has made significant advacement and tremendous performance in many applications like business, science and 
+govenment which further includes image classification, computer vision, cancer detection,face recognition and natural language processing. So in simple words,
+the inspiration for deep learning is the way that the human brain filters information
+
+Q.12) 
+Reinforcement learning is a learning method in which agent interacts with the environment by producing actions(hit and trial) and discovers errors or rewards. Then new data
+is given to predict. There is no predefined data. As the agent take actions it will collect data and store in memory which will then be used to get output.So agent does all the 
+work from scratch. Its like a child has given toys and let him play on its own. Firstly he will observe each toy and will do various things with toy. As he grows he will get to
+know how to play with particular toy. In reinforcement agent learns series of action it takes, definitely he will do some mistakes and learn from it.
+Ex. Game applications generally use this algorithms. To find a way out in a puzzle.
+
+Q.13) 
+Machine learning is a subset of Artificial intelligence which enable the computer to act and make data driven decisions to carry out certain tasks.They designed in a way that 
+they will learn over a period of time and will make predictions on new data. Ex. predicting weight of a person based on height data. Initially it will learn on given data and
+then it will calculate or make predictions. Some errors will definitely occur but can be reduced by adding more variables into the picture.
+
+Deep learning is like a rocket engine and its fuel is like huge amount of data that we feed to these algorithms. It is particular type of machine learning that is inspired
+by functionality of our brain cells called neurons which led to concept of artificial neural network.More neurons are added if the data is large. It automatically learns
+with extracting features with the help of neurons and thus complex problems can also be solved.
+Ex. how to recognize a shape is square ? i) Check whether it has four sides ii) Is it closed? iii) sides are perpendicular to each other? iv) sides are equal or not.
+with the help of these indivisual tasks it will tell that shape is square or not. With the help of same principle image classification data can also be solved.
+
+Q.14)
+Perceptron: It is basic unit of a neural network. Perceptron is a network that takes number of inputs, carries out some processing on those inputs and produces an output.
+It is a network that mimics behavior of human brain.There are inputs which are nothing but variables of data fed to network with some weights are given. Suppose x1,x2,x3 are
+input variables and y is output. w1,w2,w3 are random weights given then the output y can be derived as:
+                y=x1*w1+x2*w2+x3*w3
+
+Q.15)
+Artificial intelligence is nothing but simulation of human behavior or intelligence in machines. They are programmed to think like human and mimic their actions. So basically 
+it is not restricted or its scope is not limited. It is able to solve any kind of problems. Ex. Manufacturing robots, smart assistant ,virtual travel booking agent.
+machine learning is subset of AI and its scope is limited to particular tasks. ex. If we feed the data to predict prize of automobile by giving various features like company,
+engine type, no. of cylinders etc. and to make predictions if we give data of other features then machine will give errors because it has not learned about that.
+Its like forcing one to play tennis who is master in cricket and never played tennis.
+Ex. spam classification, online customer support .
