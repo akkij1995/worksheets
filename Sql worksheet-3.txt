@@ -1,0 +1,32 @@
+Q.1) CREATE TABLE CUSTOMERS (customernumber int,customername varchar(10),contactlastname varchar(10),contactfirstname varchar(10),phone int,addressline1 varchar(10),
+addressline2 varchar(10),city varchar(5),state varchar(5),postalcode int,country varchar(5),SalesRepEmployeeNumber int);
+
+Q.2) CREATE TABLE ORDERS(orderNumber int,orderDate DATE, requiredDate DATE,shippedDate DATE,status varchar(5),comments varchar(10),customerNumber int);
+
+Q.3) select *from orders;
+
+Q.4) select comments from orders;
+
+Q.5) select orderDate,count(orderdate) as totalorders from orders group by orderdate;
+ 
+Q.6) select employeeNumner,lastName,firstName from employees;
+
+Q.7) select o.orderNumber,c.customername from customers c inner join orders o on o.customernumber=c.customernumber;
+
+Q.8) select customername,SalesRepEmployeeNumber from customers;
+
+Q.9) select paymentDate,amount from payments;
+ 
+Q.10) select productName,MSRP,productDescription from products;
+
+Q.11) select p.productName,p.productDescription from products p inner join orderdetails o on p.productCode=o.productCode where o.quantityordered=(select max(o.quantityOrdered) from orderdetails o);
+
+Q.12) select c.city from customers c inner join orders o on c.customerNumber=o.customerNumber where o.orderdate=(select max(orderDate) from orders o);
+
+Q.13) select state,count(state) as orders from customers group by state order by orders desc limit 1;;
+
+Q.14) select concat(firstname,' ',lastname) as name,employeeNumber from employees;
+
+Q.15) select od.ordernumber,c.customerName,od.quantityordered*od.priceeach as totalprice from orders o inner join customers c on o.customernumber=c.customernumber 
+     inner join orderdetails od on od.ordernumber=o.ordernumber;
+     
