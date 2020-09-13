@@ -1,0 +1,60 @@
+Q.1) C
+Q.2) B 
+Q.3) C
+Q.4) A
+Q.5) C
+Q.6) B
+Q.7) A
+Q.8) C
+Q.9) A,C
+Q.10) A,B	
+
+Q.11)
+def fact(n):
+    if n==0:
+        return 1
+    else:
+        return n*fact(n-1)
+n=int(input("Enter a number: "))
+result=fact(n)
+print("Factorial of",n,"is",result)
+
+Q.12)
+n=int(input("Enter a number to check prime or composite"))
+if n<=1:
+    print("Enter a number greater than 1")
+else:
+    for i in range(2,n):
+        if n%i==0:
+            print(n,"is a composite number")
+            break
+    else:
+            print(n,"is a prime number")
+
+Q.13)
+j=input("Enter a string:")
+rev_str=j[::-1]
+if j==rev_str:
+    print("Given string is palindrome")
+else:
+    print("Given string is not a palindrome")
+
+Q.14)
+def third_side(opposite,adjacent,hypotenuse):
+    if opposite==str("x"):
+        return ("opposite=" + str(((hypotenuse**2)-(adjacent**2))**0.5))
+    elif adjacent==str("x"):
+        return ("adjacent=" + str(((hypotenuse**2)-(opposite**2))**0.5))
+    elif hypotenuse==str("x"):
+        return ("hypotenuse=" + str(((opposite**2)+(adjacent**2))**0.5))
+    else:
+        return ("you know")
+    
+Q.15)
+string=input("Enter a string:")
+for i in string:
+    count=0
+    for j in string:
+        if i==j:
+            count=count+1
+    print(i,":",count)
