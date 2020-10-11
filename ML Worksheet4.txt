@@ -1,0 +1,43 @@
+Q.1) A
+Q.2) B
+Q.3) A
+Q.4) A
+Q.5) A
+Q.6) B
+Q.7) C
+Q.8) B
+
+Q.9) gini index=A/(A+B)
+               =0.4/(0.4+0.6)
+               =0.4
+    entropy=0.4*log(0.4)+0.6*log(0.6)
+           
+Q.10) 
+Random forests consist of multiple single trees each based on a random sample of the training data. They are typically more accurate than single decision trees.
+Trees are unpruned. While a single decision tree like CART is often pruned, a random forest tree is fully grown and unpruned, and so, naturally, the feature space 
+is split into more and smaller regions.Trees are diverse. Each random forest tree is learned on a random sample, and at each node, a random set of features are considered 
+for splitting. Both mechanisms create diversity among the trees.
+
+Q.11) 
+It is a step of Data Pre Processing which is applied to independent variables or features of data. It basically helps to normalise the data within a particular range. 
+Sometimes, it also helps in speeding up the calculations in an algorithm.Another reason why feature scaling is applied is that few algorithms like Neural network gradient
+descent converge much faster with feature scaling than without it. Techniques used are: Standardization and Normalization
+
+Q.12)
+The range of all features should be normalized so that each feature contributes approximately proportionately to the final distance. Another reason why feature scaling is 
+applied is that gradient descent converges much faster with feature scaling than without it.
+
+Q.13)
+Accuracy=correct classification/number of classification
+we want to be able to rate the classification performance of our classification function. Accuracy can be a useful measure if we have the same amount of samples per class but 
+if we have an imbalanced set of samples accuracy isn't useful at all. Even more so, a test can have a high accuracy but actually perform worse than a test with a lower accuracy.
+
+Q.14)
+In statistical analysis of binary classification, the F1 score (also F-score or F-measure) is a measure of a test's accuracy. It is calculated from the precision and recall of the test, 
+where the precision is the number of correctly identified positive results divided by the number of all positive results, including those not identified correctly, and the recall is the 
+number of correctly identified positive results divided by the number of all samples that should have been identified as positive.
+F-score=2*((precision*recall)/(precision+recall))
+
+Q.15)
+fit() computes the mean and std to be used for later scaling. (jsut a computation), nothing is given to you. transform() uses a previously computed mean and std to autoscale the 
+data (subtract mean from all values and then divide it by std). fit_transform() does both at the same time.
