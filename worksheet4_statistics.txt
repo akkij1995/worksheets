@@ -1,0 +1,60 @@
+Q.1) A
+
+Q.2) A
+
+Q.3) B
+
+Q.4) D
+
+Q.5) C
+
+Q.6) B
+
+Q.7) B
+
+Q.8) C
+
+Q.9) C
+
+Q.10)
+The normal distribution is a probability function that describes how the values of a variable are distributed. 
+It is a symmetric distribution where most of the observations cluster around the central peak and the probabilities 
+for values further away from the mean taper off equally in both directions.
+
+Q.11)
+Ignore the records with missing values:Many tools ignore records with missing values. When the percentage of records with 
+missing values is small, we could ignore those records.
+Substitute a value such as mean:When the percentage is large and also when it makes sense to do something to avoid bias modeling results, 
+substituting a value (e.g. mean, median) is a commonly used way.
+Predict missing values: It is one of way of filling missing values,i.e. predicting missing values by observing some relationship with
+the target variable.
+
+Q.12)
+A/B testing (also known as split testing) is the process of comparing two versions of a web page, email, or other marketing asset and measuring 
+the difference in performance. You do this giving one version to one group and the other version to another group. Then you can see how each variation performs.
+
+Q.13)
+Bad practice in general.
+If just estimating means: mean imputation preserves the mean of the observed data.
+Leads to an underestimate of the standard deviation.
+Distorts relationships between variables by “pulling” estimates of the correlation toward zero. 
+
+Q.14)
+In statistics, linear regression is a linear approach to modeling the relationship between a scalar response (or dependent variable) and one or more explanatory variables (or independent variables).
+The case of one explanatory variable is called simple linear regression.In linear regression, the relationships are modeled using linear predictor functions whose unknown model parameters are estimated 
+from the data. Such models are called linear models. Most commonly, the conditional mean of the response given the values of the explanatory variables (or predictors) is assumed to be an affine function of
+those values; less commonly, the conditional median or some other quantile is used.
+
+Q.15)
+If we consider the branches of statistics, there are two branches in it. They are 
+
+Descriptive statistics:
+It organizes raw data into meaningful information.An house hold articles manufacturing company would like to know what people feel about their products. For that purpose, the company forms a team of people 
+and tries to collect information from the public. The team of people formed by the company is trying to collect data from the public directly. The data which is being collected directly from the public will 
+always not be meaning full. Hence, the data which is being collected directly from the public has to be converted in to meaningful information. This is the work being done in this particular branch “ descriptive-statistics". 
+That is,it focuses on collecting, summarizing and presenting set of data.
+
+Inferential statistics:
+It analyses sample data to draw conclusion about population. It analyses sample data to draw conclusion about population. Marketing research team of a company wants to know how far the people need a particular product manufactured
+ by the company. There is one hundred thousand population in a particular city. It is bit difficult to go and ask all one hundred thousand people, due to time consumption and other factors. Hence, it takes a sample of 1000 people to 
+draw conclusion for the whole population. That is making general statement from the study of particular cases or any treatment of data, which leads to prediction or inference concerning a larger group of data.
