@@ -1,0 +1,61 @@
+Q.1) B
+
+Q.2) C
+
+Q.3) A
+
+Q.4) D
+
+Q.5) C
+
+Q.6) B
+
+Q.7) A
+
+Q.8) B
+
+Q.9) A,C
+
+Q.10) A,B,D
+
+Q.11)
+In that case, every neuron will only be performing a linear transformation on the inputs using the weights and biases. 
+Although linear transformations make the neural network simpler, but this network would be less powerful and will not be able 
+to learn the complex patterns from the data.Thus we use a non linear transformation to the inputs of the neuron and this non-linearity
+in the network is introduced by an activation function.
+
+Q.12)
+Forward propagation (or forward pass) refers to the calculation and storage of intermediate variables (including outputs) for a neural 
+network in order from the input layer to the output layer. We now work step-by-step through the mechanics of a neural network with one hidden layer. 
+
+Backpropagation refers to the method of calculating the gradient of neural network parameters. In short, the method traverses the network in reverse 
+order, from the output to the input layer, according to the chain rule from calculus. The algorithm stores any intermediate variables (partial derivatives) 
+required while calculating the gradient with respect to some parameters.
+
+Q.13)
+In Batch Gradient Descent, all the training data is taken into consideration to take a single step. We take the average of the gradients of all the training 
+examples and then use that mean gradient to update our parameters. So that’s just one step of gradient descent in one epoch.
+Batch Gradient Descent is great for convex or relatively smooth error manifolds. In this case, we move somewhat directly towards an optimum solution.
+
+In Batch Gradient Descent we were considering all the examples for every step of Gradient Descent. But what if our dataset is very huge. Deep learning 
+models crave for data. The more the data the more chances of a model to be good. Suppose our dataset has 5 million examples, then just to take one step 
+the model will have to calculate the gradients of all the 5 million examples. This does not seem an efficient way. To tackle this problem we have Stochastic 
+Gradient Descent. In Stochastic Gradient Descent (SGD), we consider just one example at a time to take a single step.
+
+Batch Gradient Descent can be used for smoother curves.SGD can be used when the dataset is large. Batch Gradient Descent converges directly to minima. 
+SGD converges faster for larger datasets. But, since in SGD we use only one example at a time, we cannot implement the vectorized implementation on it. 
+This can slow down the computations. To tackle this problem, a mixture of Batch Gradient Descent and SGD is used.Neither we use all the dataset all at 
+once nor we use the single example at a time. We use a batch of a fixed number of training examples which is less than the actual dataset and call it a mini-batch. 
+
+Q.14)
+Easily fits in the memory.
+It is computationally efficient.
+Benefit from vectorization.
+If stuck in local minimums, some noisy steps can lead the way out of them.
+Average of the training samples produces stable error gradients and convergence
+
+Q.15)
+Transfer learning (TL) is a research problem in machine learning (ML) that focuses on storing knowledge gained while solving one problem and applying it to a different 
+but related problem. For example, knowledge gained while learning to recognize cars could apply when trying to recognize trucks.
+In transfer learning, we first train a base network on a base dataset and task, and then we repurpose the learned features, or transfer them, to a second target network 
+to be trained on a target dataset and task. This process will tend to work if the features are general, meaning suitable to both base and target tasks, instead of specific to the base task.
