@@ -1,0 +1,34 @@
+Q.1) B,C
+
+Q.2) C
+
+Q.3) C
+
+Q.4) D
+
+Q.5) D
+
+Q.6) D
+
+Q.7) D
+
+Q.8) C
+
+Q.9) B
+
+Q.10) C,D
+
+Q.11) B,C
+
+Q.12) B
+
+Q.13) A
+
+Q.14) B
+
+Q.15)
+find()- It just returns the result when the searched element is found in the page.And the return type will be <class 'bs4.element.Tag'>
+Gets the first tag of the incoming HTML object that satisfies the condition and returns. A function of a label group or a single label.
+
+find_all()- It returns all the matches (i.e) it scans the entire document and returns all the results and the return type will be <class 'bs4.element.ResultSet'>
+Get all the conditions of the incoming HTML object and return it
