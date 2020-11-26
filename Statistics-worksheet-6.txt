@@ -1,0 +1,54 @@
+Q.1) b
+
+Q.2) c
+
+Q.3) a
+
+Q.4) a
+
+Q.5) c
+
+Q.6) b
+
+Q.7) b
+
+Q.8) d
+
+Q.9) a
+
+Q.10)
+Bayes' Theorem is a simple mathematical formula used for calculating conditional probabilities. It figures prominently in subjectivist or Bayesian approaches 
+to epistemology, statistics, and inductive logic. Subjectivists, who maintain that rational belief is governed by the laws of probability, lean heavily on conditional 
+probabilities in their theories of evidence and their models of empirical learning. Bayes' Theorem is central to these enterprises both because it simplifies the calculation 
+of conditional probabilities and because it clarifies significant features of subjectivist position. Indeed, the Theorem's central insight — that a hypothesis is confirmed 
+by any body of data that its truth renders probable — is the cornerstone of all subjectivist methodology.
+
+Q.11)
+A z-score (also called a standard score) gives you an idea of how far from the mean a data point is. But more technically it’s a measure of how many standard deviations below 
+or above the population mean a raw score is.A z-score can be placed on a normal distribution curve. Z-scores range from -3 standard deviations (which would fall to the far left 
+of the normal distribution curve) up to +3 standard deviations (which would fall to the far right of the normal distribution curve). In order to use a z-score, you need to know 
+the mean μ and also the population standard deviation σ.
+
+Q.12)
+A t-test is a type of inferential statistic used to determine if there is a significant difference between the means of two groups, which may be related in certain features. 
+It is mostly used when the data sets, like the data set recorded as the outcome from flipping a coin 100 times, would follow a normal distribution and may have unknown variances.
+A t-test is used as a hypothesis testing tool, which allows testing of an assumption applicable to a population. 
+A t-test looks at the t-statistic, the t-distribution values, and the degrees of freedom to determine the statistical significance. To conduct a test with three or more means, 
+one must use an analysis of variance.
+
+Q.13)
+In statistics, a percentile (or a centile) is a type of quantile which divides the given probability distribution, or sample, into 100 equal-sized intervals; this allows the data 
+to be analyzed in terms of percentages. For example, the 20th percentile is the value (or score) below which 20% of the observations are found, and above which 80% are found.
+
+Q.14)
+Analysis of variance (ANOVA) is an analysis tool used in statistics that splits an observed aggregate variability found inside a data set into two parts: systematic factors and random factors. 
+The systematic factors have a statistical influence on the given data set, while the random factors do not. Analysts use the ANOVA test to determine the influence that independent variables 
+have on the dependent variable in a regression study.ANOVA is also called the Fisher analysis of variance, and it is the extension of the t- and z-tests. The term became well-known in 1925, 
+after appearing in Fisher's book, "Statistical Methods for Research Workers."
+
+Q.15)
+An ANOVA test is a way to find out if survey or experiment results are significant. In other words, they help you to figure out if you need to reject the null hypothesis or accept the alternate hypothesis. 
+Basically, you're testing groups to see if there's a difference between them.
+Advantages of ANOVA:
+MANOVA enables you to test multiple dependent variables.
+MANOVA can protect against Type I errors.
