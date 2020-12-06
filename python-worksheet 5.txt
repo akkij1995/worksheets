@@ -1,0 +1,83 @@
+Q.1) C
+
+Q.2) C
+
+Q.3) B
+
+Q.4) D
+
+Q.5) C
+
+Q.6) D
+
+Q.7) B
+
+Q.8) C
+
+Q.9) D
+
+Q.10) D
+
+Q.11)
+i) Elements in the list are mutable but elements of set are immutable.
+ii) List can have repeatitive elements but sets are unique elements. 
+
+Q.12)
+list1=[3,8,24,56,78,23,15,10,88]
+square=[x**2 for x in list1]
+print(square)
+output --> [9, 64, 576, 3136, 6084, 529, 225, 100, 7744]
+
+Q.13)
+mylist = [8,5,6,6,4,9,4,7]
+mylist = list(dict.fromkeys(mylist))
+print(mylist)
+
+output --> [8, 5, 6, 4, 9, 7]
+
+Q.14)
+# Union operation
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+print(A | B)
+
+output -->{1, 2, 3, 4, 5, 6, 7, 8}
+
+# Intersection operation
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+print(A & B)
+
+output --> {4, 5}
+
+# Differrence operation
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+print(A - B)
+
+output --> {1, 2, 3}
+
+# Symmetric Difference operation
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+A.symmetric_difference(B)
+ 
+output --> {1, 2, 3, 6, 7, 8}
+
+Q.15)
+set1={1,2,5,8,10}
+a=0
+for x in set1:
+  a=x+a
+print(a)
+
+output--> 26
+
+set1={'she','ran','away'}
+a=''
+for x in set1:
+  a=x+' '+a
+print(a)
+
+
+output--> she ran away
