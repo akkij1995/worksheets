@@ -1,0 +1,57 @@
+Q.1) B
+
+Q.2) B
+
+Q.3) A
+
+Q.4) C
+
+Q.5) A
+
+Q.6) A
+
+Q.7) D
+
+Q.8) C
+
+Q.9) B,D
+
+Q.10) C
+
+Q.11) A
+
+Q.12) 
+R-squared measures the proportion of the variation in your dependent variable (Y) explained by your independent variables (X) for a linear regression model.
+So R-squared gives the degree of variability in the target variable that is explained by the model or the independent variables. If this value is 0.7, 
+then it means that the independent variables explain 70% of the variation in the target variable.
+R-squared value always lies between 0 and 1. A higher R-squared value indicates a higher amount of variability being explained by our model and vice-versa.
+
+The Adjusted R-squared takes into account the number of independent variables used for predicting the target variable. In doing so, we can determine whether 
+adding new variables to the model actually increases the model fit.So, if R-squared does not increase significantly on the addition of a new independent variable, 
+then the value of Adjusted R-squared will actually decrease.
+
+Q.13) 
+In the case of gradient descent, the objective is to find a line of best fit for some given inputs, or X values, and any number of Y values, or outputs. 
+A cost function is defined as a function that maps an event or values of one or more variables onto a real number intuitively representing some “cost” associated 
+with the event.A lowest cost is desirable. A low costs represents a smaller difference. By minimizing the cost, we are finding the best fit.
+
+Q.14) 
+The sum of squares total, denoted SST, is the squared differences between the observed dependent variable and its mean. one can think of this as the dispersion 
+of the observed variables around the mean – much like the variance in descriptive statistics.
+
+The second term is the sum of squares due to regression, or SSR. It is the sum of the differences between the predicted value and the mean of the dependent variable. 
+Think of it as a measure that describes how well our line fits the data. If this value of SSR is equal to the sum of squares total, it means our regression model captures 
+all the observed variability and is perfect.
+
+The last term is the sum of squares error, or SSE. The error is the difference between the observed value and the predicted value.
+We usually want to minimize the error. The smaller the error, the better the estimation power of the regression. Finally, I should add that it is also known as RSS or residual sum of squares.
+
+
+Q.15) 
+The various metrics used to evaluate the results of the prediction are:
+Mean Squared Error(MSE):- It is simply the average of the squared difference between the target value and the value predicted by the regression model.
+Root-Mean-Squared-Error(RMSE):-RMSE is the most widely used metric for regression tasks and is the square root of the averaged squared difference between the target value and the value 
+predicted by the model.
+Mean-Absolute-Error(MAE):-MAE is the absolute difference between the target value and the value predicted by the model.
+R² or Coefficient of Determination:-
+Adjusted R²
